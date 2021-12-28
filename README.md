@@ -10,6 +10,10 @@ https://wolanka739.github.io/currency-converter/
 
 In this aplication you can convert PLN value to EURO, U.S. Dollar and British Pound. The application is in Polish.
 
+# Animated instruction
+
+![Animated instruction](https://github.com/wolanka739/currency-converter/blob/main/images/Animation.gif?raw=true)
+
 # Technologies
 
 - HTML
