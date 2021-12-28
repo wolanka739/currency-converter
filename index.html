@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator walut</title>
+    <meta property="og:image" content="images/share.png">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kalkulator walut</legend>
+                <p>
+                    <label class="form__label">
+                        Wybierz walutę
+                        <select class="form__field js-currency" name="currency">
+                            <option value="eur">EUR (Euro)</option>
+                            <option value="usd">USD (Dolar amerykański)</option>
+                            <option value="gbp">GBP (Funt brytyjski)</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label class="form__label">
+                        Wpisz kwotę <input class="form__field js-amount" required type="number" name="euro" min="0.01"
+                            step="0.01">
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button class="button">Przelicz na PLN</button>
+            </p>
+            <p>
+            <div class="form__result">
+                Kwota wynosi: <strong class="js-result">N/A</strong> zł
+            </div>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>

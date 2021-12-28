@@ -1,0 +1,36 @@
+.form {
+    font-family: 'Lato', sans-serif;
+    margin: 30px;
+}
+
+.form__fieldset {
+    background-color: #d0e9bd;
+    border: 5px solid #779b5e;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 4px #0A0A0A;
+}
+
+.form__legend {
+    font-weight: bold;
+    background-color: hsl(155, 50%, 26%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form__label {
+    max-width: 150px;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.form__field {
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.form__result {
+  font-weight: bold;
+}

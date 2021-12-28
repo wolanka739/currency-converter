@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    text-align: center;
+    background-image: url("../images/background.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.button {
+    border-radius: 5px;
+    background-color: #b8de9c;
+    box-shadow: 0px 5px 10px 4px #0A0A0A;
+    margin: 20px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: hsl(300, 32%, 54%);
+}
