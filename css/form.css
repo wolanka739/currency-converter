@@ -32,5 +32,9 @@
 }
 
 .form__result {
-  font-weight: bold;
+  background-color: #b8de9c;
+  border: 3px solid #779b5e;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px 4px #0A0A0A;
+  padding: 8px;
 }
